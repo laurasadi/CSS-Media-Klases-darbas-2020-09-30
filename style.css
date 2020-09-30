@@ -1,0 +1,110 @@
+
+body html{
+  height: 100% ;
+}
+header{
+  text-align: center;
+}
+h4{
+  margin: 0;
+}
+.parent{
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+.kubelis1{
+    background-color: grey;
+    border: 2px solid black;
+
+}
+.pavadinimas1{
+  background-color: pink;
+  border: 2px solid black;
+  float: right;
+  text-align: center;
+  height: 15%;
+  width: 30%;
+}
+.tekstas1{
+  background-color:gray;
+  text-align: inherit;
+
+}
+.tekstas2{
+  background-color: gray;
+  text-align: inherit;
+}
+.tekstas3{
+  background-color: gray;
+  text-align: inherit;
+
+}
+.kubelis2{
+    background-color: grey;
+    border: 2px solid black;
+    }
+
+.pavadinimas2{
+  background-color: lightcoral;
+  border: 2px solid black;
+  float: right;
+  text-align: center;
+  height: 15%;
+  width: 30%;
+  
+  
+}
+.kubelisDid{
+    background-color:grey;
+    border: 2px solid black;
+}
+.pavadinimas3{
+  background-color: lightyellow;
+  border: 2px solid black;
+  float: right;
+  text-align: center;
+  height: 15%;
+  width: 30%;
+}
+
+@media(min-width: 321px) and (max-width: 1023px){
+  .parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.kubelis1{
+  width: 50%;
+  flex: 1;
+}
+.kubelis2{
+    width: 50%;
+    flex: 1;
+    }
+.kubelisDid{
+    width: 100%;
+}
+.pavadinimas3{
+  height:30.39px;
+  width:  114.09px;
+}
+}
+
+@media(min-width: 1224px){
+  .parent{
+    display: flex;
+    flex-direction: row;
+    }
+.kubelis1{
+  width: 50%;
+}
+.kubelis2{
+    width: 50%;
+    }
+.kubelisDid{
+    width: 50%;
+}
+}
